@@ -1,0 +1,39 @@
+Welcome: zhengli, 20160427_0006 
+REST Version: 1.8, Release: 20130615
+Citation Information:
+Xiao-Wei Song, Zhang-Ye Dong, Xiang-Yu Long, Su-Fang Li, Xi-Nian Zuo, Chao-Zhe Zhu, Yong He, Chao-Gan Yan, Yu-Feng Zang. (2011) REST: A Toolkit for Resting-State Functional Magnetic Resonance Imaging Data Processing. PLoS ONE 6(9): e25031. doi:10.1371/journal.pone.0025031
+[Warning: matlabpool will be removed in a future
+release.
+To query the size of an already started parallel pool,
+query the 'NumWorkers' property of the pool.
+To check if a pool is already started use
+'isempty(gcp('nocreate'))'.] 
+[Warning: matlabpool will be removed in a future
+release.
+To query the size of an already started parallel pool,
+query the 'NumWorkers' property of the pool.
+To check if a pool is already started use
+'isempty(gcp('nocreate'))'.] 
+Now REST is Running on 0 workers.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rest_progress', '/disk8t/zhengli/Neruo_Tool/REST_V1.8_130615/rest_progress.m', 29)" style="font-weight:bold">rest_progress</a> (<a href="matlab: opentoline('/disk8t/zhengli/Neruo_Tool/REST_V1.8_130615/rest_progress.m',29,0)">line 29</a>)
+Input arguments of type matlab.ui.Figure not valid.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rest_waitbar', '/disk8t/zhengli/Neruo_Tool/REST_V1.8_130615/rest_waitbar.m', 66)" style="font-weight:bold">rest_waitbar</a> (<a href="matlab: opentoline('/disk8t/zhengli/Neruo_Tool/REST_V1.8_130615/rest_waitbar.m',66,0)">line 66</a>)
+		rest_progress(APercent,hParent,sprintf('Total
+                progress:\n%s',AMessage), 'Name',
+                ATitle);
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rest_ResliceImage_gui>btnRun_Callback', '/disk8t/zhengli/Neruo_Tool/REST_V1.8_130615/rest_ResliceImage_gui.m', 210)" style="font-weight:bold">rest_ResliceImage_gui>btnRun_Callback</a> (<a href="matlab: opentoline('/disk8t/zhengli/Neruo_Tool/REST_V1.8_130615/rest_ResliceImage_gui.m',210,0)">line
+210</a>)
+        rest_waitbar((i-1)/length(ImgFileList)+0.01,
+        ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', '/home/programs/MATLAB/R2014b/toolbox/matlab/guide/gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('/home/programs/MATLAB/R2014b/toolbox/matlab/guide/gui_mainfcn.m',95,0)">line 95</a>)
+        feval(varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rest_ResliceImage_gui', '/disk8t/zhengli/Neruo_Tool/REST_V1.8_130615/rest_ResliceImage_gui.m', 26)" style="font-weight:bold">rest_ResliceImage_gui</a> (<a href="matlab: opentoline('/disk8t/zhengli/Neruo_Tool/REST_V1.8_130615/rest_ResliceImage_gui.m',26,0)">line 26</a>)
+    gui_mainfcn(gui_State, varargin{:});
+} 
+Error while evaluating UIControl Callback
+

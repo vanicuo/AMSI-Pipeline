@@ -1,0 +1,3 @@
+Dataset B from Peking University includes 13 patients (sub0-12).
+The processed_data folder here only releases the processed data from Patient 1 (i.e., sub0) due to memory limit.
+The user can test the main_pHash.py with this input data.
